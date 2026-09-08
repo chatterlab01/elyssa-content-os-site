@@ -1,4 +1,10 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/social/:path*",
+      "destination": "https://REPLACE_WITH_YOUR_FASTAPI_BACKEND_URL/social/:path*"
+    }
+  ]
 }

@@ -639,6 +639,87 @@ section {
 }
 
 /* --------------------------------------------------------------------------
+   Connect (social accounts) — reusable for TikTok today, Instagram/YouTube later
+   -------------------------------------------------------------------------- */
+
+.connect-page {
+  padding: 90px 0 100px;
+  min-height: calc(100vh - 68px - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+.connect-card h1 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+
+.connect-card .hint {
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin-bottom: 28px;
+  word-break: break-all;
+}
+
+.connect-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #2a2a30;
+  margin: 0 auto 16px;
+  display: block;
+}
+
+.connect-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #86efac;
+  margin-bottom: 6px;
+}
+
+.connect-status .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.connect-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.connect-error {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #fca5a5;
+}
+
+/* Sur cette page, contrairement au badge "Coming Soon" de la landing, le
+   bouton est un vrai lien cliquable (Connect TikTok). */
+.connect-card .btn-primary {
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------
    Responsive
    -------------------------------------------------------------------------- */
 
