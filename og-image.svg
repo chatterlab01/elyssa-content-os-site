@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow1" cx="18%" cy="12%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="88%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d4d4d8"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#09090b"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <rect x="1" y="1" width="1198" height="628" rx="0" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <!-- Logomark -->
+  <rect x="480" y="150" width="76" height="76" rx="20" fill="url(#mark)"/>
+  <g fill="#fafafa">
+    <rect x="503" y="171" width="30" height="7.2" rx="2.8"/>
+    <rect x="503" y="184.4" width="23" height="7.2" rx="2.8"/>
+    <rect x="503" y="197.8" width="30" height="7.2" rx="2.8"/>
+    <rect x="503" y="171" width="7.2" height="34" rx="2.8"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="600" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif"
+        font-size="64" font-weight="700" letter-spacing="-1.5" fill="url(#title)">
+    Elyssa Content OS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="378" text-anchor="middle" font-family="Helvetica, Arial, sans-serif"
+        font-size="24" font-weight="400" fill="#a1a1aa">
+    AI-powered content operating system for creators and agencies
+  </text>
+
+  <!-- Eyebrow pill -->
+  <rect x="497" y="410" width="206" height="38" rx="19" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.3"/>
+  <circle cx="521" cy="429" r="4" fill="#8b5cf6"/>
+  <text x="536" y="434" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#c4b5fd">
+    Coming soon on Vercel
+  </text>
+</svg>
